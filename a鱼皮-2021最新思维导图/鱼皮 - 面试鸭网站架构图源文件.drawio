@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" modified="2022-01-22T06:24:45.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="yN-qL7krNWBV1yxPVibq" version="16.4.5" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1234" dy="825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s9BxI0iiLijmmo2BUd68-94" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="90" y="490" width="682.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-92" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="682.5" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-89" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;labelBackgroundColor=none;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="90" y="142" width="682.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-87" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="92.5" y="580" width="680" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=16;" edge="1" parent="1" source="s9BxI0iiLijmmo2BUd68-1" target="s9BxI0iiLijmmo2BUd68-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-78" value="回源" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="s9BxI0iiLijmmo2BUd68-74">
+          <mxGeometry x="-0.0347" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-1" value="CDN 静态加速" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="103.75" y="206" width="162.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-10" value="云托管网关" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="430" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-18" value="后端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Node Server" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="606.25" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-19" value="MongoDB 数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="283.75" y="610" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-20" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="653.75" y="593" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-21" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="612.5" y="623" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-22" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="698.75" y="626.15" width="46.25" height="38.85" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-24" value="前端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Nginx" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="506.25" y="256" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-26" value="对象存储" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="111.25" y="605" width="152.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-36" value="容器网关" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="206" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-41" value="ECDN 全站加速" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="380" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-43" value="后端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Node Server" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="441.25" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-44" value="后端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Node Server" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="500" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-45" value="Redis 集群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="628.75" y="665" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-46" value="Elasticsearch" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="443.75" y="610" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-49" value="Prerender 服务" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="326" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-62" value="搜索蜘蛛请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="466.25" y="150" width="140" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-63" value="静态资源请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="166.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-69" value="页面请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="150" width="180" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-70" value="前端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Nginx" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="276.25" y="256" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-71" value="前端容器&lt;br style=&quot;font-size: 16px;&quot;&gt;Nginx" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="391.25" y="256" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.86;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=16;" edge="1" parent="1" source="s9BxI0iiLijmmo2BUd68-76" target="s9BxI0iiLijmmo2BUd68-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-76" value="动态请求" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="616.25" y="150" width="130" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-79" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/halloween-36/64/_Spider-128.png;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="506.25" y="70" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-80" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="168.25" y="68" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-81" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="351.25" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-82" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="661.25" y="70" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-88" value="持久层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="22.5" y="635" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-90" value="请求层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="152.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-93" value="接入层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="211" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9BxI0iiLijmmo2BUd68-95" value="服务层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;sketch=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="20" y="515" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
